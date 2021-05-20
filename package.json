@@ -1,0 +1,23 @@
+{
+  "name": "online-zoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass/main.scss dist/style.css",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "mini-css-extract-plugin": "^1.5.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {}
+}
