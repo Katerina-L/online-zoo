@@ -162,13 +162,32 @@ header{
         margin: 30px auto 100px;
     }
 }
+.schema_pay_and_feed{
+    display: flex;
+    justify-content: center;
+}
 .schema_pay_and_feed__iteam {
     max-width: 245px;
     max-height: 245px;
     border: 3px solid $colorButton;
     border-radius: 50%;
-    .iteam_1{
-        max-width: 65px;
+    .iteam_img{
+        padding-top: 65px;
+    }
+    .iteam_p_1{
+        max-width: 136px;
+    }
+    .iteam_p_2{
+        max-width: 136px;
+    }
+    .iteam_p_3{
+        max-width: 107px;
+    }
+
+    .iteam_p{
+        padding-top: 18px;
+        padding-bottom: 58px;
+
     }
     p{
         font-family: $fontText;
@@ -176,5 +195,7 @@ header{
         font-size: 20px;
         line-height: 23px;
         text-align: center;
-    }
+        margin: 0 auto;
+        }
+
 }
