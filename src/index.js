@@ -1,4 +1,4 @@
-import './src/sass/main.scss';
+import './sass/main.scss';
 console.log('App is running');
 console.log('App is running');
 console.log('ggggg');

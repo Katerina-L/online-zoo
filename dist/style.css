@@ -81,7 +81,7 @@ header li a {
 }
 
 .first_screen {
-  background: url(../src/img/Rectangle.png) no-repeat;
+  background-color: yellow;
   background-size: cover;
 }
 .first_screen h2 {
@@ -349,11 +349,25 @@ header li a {
   margin-bottom: 35px;
 }
 .slider_map .slider_map__iteam {
-  position: relative;
   padding-bottom: 100px;
+}
+.slider_map .map {
+  position: relative;
 }
 .slider_map .placeholder {
   position: absolute;
+}
+.slider_map .placeholder .placeholder_panda {
+  top: 90px;
+  right: 227px;
+}
+.slider_map .placeholder .placeholder_aligator {
+  right: 871px;
+  top: 95px;
+}
+.slider_map .placeholder .placeholder_eagle {
+  left: 108px;
+  top: 74px;
 }
 .slider_map button {
   margin: auto;
@@ -385,5 +399,3 @@ footer .logo div:nth-child(2) {
 footer li a {
   color: #FEFEFE;
 }
-
-/*# sourceMappingURL=style.css.map */
