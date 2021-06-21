@@ -9,7 +9,21 @@ module.exports = {
       path: path.resolve(__dirname, 'dist')
    },
    module: {
-      rules: [{
+      rules: [ {
+         test: /\.(png|svg|jpe?g|gif)$/,
+         include: /img/,
+         use: [
+           {
+             loader: 'file-loader',
+             options: {
+               name: '[name].[ext]',
+               outputPath: 'img/',
+               publicPath: 'img/'
+             }
+           }
+         ]
+      },
+         {
          test:/\.(s*)css$/,
          use: [
             miniCss.loader,
